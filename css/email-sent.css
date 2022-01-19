@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-size: 62.5%;
+}
+
+body .login {
+  width: 100%;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+body .login .form-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+  width: 300px;
+  justify-items: center;
+}
+
+body .login .form-container .logo {
+  width: 150px;
+  margin-bottom: 48px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  display: none;
+}
+
+@media (max-width: 640px) {
+  body .login .form-container .logo {
+    display: block;
+  }
+}
+
+body .login .form-container .title {
+  font-size: 18px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+body .login .form-container .subtitle {
+  color: #c7c7c7;
+  font-size: 14px;
+  font-weight: 300;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 32px;
+          margin-block-end: 32px;
+  text-align: center;
+}
+
+body .login .form-container .email-image {
+  width: 132px;
+  height: 132px;
+  background-color: #f7f7f7;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .login .form-container .email-image img {
+  width: 80px;
+}
+
+body .login .form-container .primary-button {
+  background-color: #acd9b2;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  width: 100%;
+  height: 60px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+body .login .form-container .login-button {
+  -webkit-margin-before: 12px;
+          margin-block-start: 12px;
+  -webkit-margin-after: 16px;
+          margin-block-end: 16px;
+}
+
+body .login .form-container .resend {
+  color: #c7c7c7;
+  font-size: 14px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+body .login .form-container .resend a {
+  color: #acd9b2;
+  text-decoration: none;
+}
+
+body .login .form-container .resend a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=email-sent.css.map */
