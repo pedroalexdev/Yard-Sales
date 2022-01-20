@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-size: 62.5%;
+}
+
+body .login {
+  width: 100%;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+body .login .form-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+  width: 300px;
+}
+
+body .login .form-container div .title {
+  font-size: 18px;
+  margin-bottom: 42px;
+}
+
+body .login .form-container div .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .login .form-container div .form .label {
+  font-size: 14px;
+  font-weight: bold;
+  -webkit-margin-before: 4px;
+          margin-block-start: 4px;
+  -webkit-margin-after: 8px;
+          margin-block-end: 8px;
+}
+
+body .login .form-container div .form .input {
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 8px;
+  height: 32px;
+  font-size: 16px;
+  padding: 6px;
+  -webkit-margin-after: 12px;
+          margin-block-end: 12px;
+}
+
+@media (max-width: 640px) {
+  body .login .form-container div {
+    position: absolute;
+    top: 0;
+    -webkit-margin-before: 24px;
+            margin-block-start: 24px;
+  }
+}
+
+body .login .form-container .primary-button {
+  background-color: #acd9b2;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  width: 100%;
+  height: 60px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+body .login .form-container .login-button {
+  -webkit-margin-before: 12px;
+          margin-block-start: 12px;
+  -webkit-margin-after: 16px;
+          margin-block-end: 16px;
+}
+
+@media (max-width: 640px) {
+  body .login .form-container .login-button {
+    position: absolute;
+    bottom: 0;
+    -webkit-margin-after: 24px;
+            margin-block-end: 24px;
+    width: 300px;
+  }
+}
+/*# sourceMappingURL=myaccount.css.map */
