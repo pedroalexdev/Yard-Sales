@@ -47,32 +47,27 @@ body .login .form-container div .form .label {
           margin-block-end: 8px;
 }
 
-body .login .form-container div .form .input {
-  background-color: #f7f7f7;
-  border: none;
-  border-radius: 8px;
-  height: 32px;
+body .login .form-container div .form .value {
+  color: #c7c7c7;
   font-size: 16px;
-  padding: 6px;
-  -webkit-margin-after: 12px;
-          margin-block-end: 12px;
+  margin: 8px 0 32px 0;
 }
 
 @media (max-width: 640px) {
   body .login .form-container div {
     position: absolute;
-    width: 300px;
     top: 0;
     -webkit-margin-before: 24px;
             margin-block-start: 24px;
+    width: 300px;
   }
 }
 
 body .login .form-container .primary-button {
-  background-color: #acd9b2;
+  background-color: #fff;
   border-radius: 8px;
-  border: none;
-  color: #fff;
+  border: 1px solid #acd9b2;
+  color: #acd9b2;
   width: 100%;
   height: 60px;
   cursor: pointer;
@@ -80,7 +75,7 @@ body .login .form-container .primary-button {
   font-weight: bold;
 }
 
-body .login .form-container .login-button {
+body .login .form-container .save-button {
   -webkit-margin-before: 12px;
           margin-block-start: 12px;
   -webkit-margin-after: 16px;
@@ -88,7 +83,7 @@ body .login .form-container .login-button {
 }
 
 @media (max-width: 640px) {
-  body .login .form-container .login-button {
+  body .login .form-container .save-button {
     position: absolute;
     bottom: 0;
     -webkit-margin-after: 24px;
@@ -96,4 +91,4 @@ body .login .form-container .login-button {
     width: 300px;
   }
 }
-/*# sourceMappingURL=myaccount.css.map */
+/*# sourceMappingURL=editaccount.css.map */
