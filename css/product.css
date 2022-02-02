@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-size: 62.5%;
+}
+
+body .product-detail {
+  width: 360px;
+  padding-bottom: 24px;
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width: 640px) {
+  body .product-detail {
+    width: 100%;
+  }
+}
+
+body .product-detail .product-detail-close {
+  background: #fff;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  cursor: pointer;
+  z-index: 2;
+  padding: 12px;
+  border-radius: 50px;
+}
+
+body .product-detail img:nth-child(2) {
+  width: 360px;
+  height: 360px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0 0 20px 20px;
+}
+
+@media (max-width: 640px) {
+  body .product-detail img:nth-child(2) {
+    width: 100%;
+  }
+}
+
+body .product-description {
+  margin: 24px 24px 0 24px;
+}
+
+body .product-description p:nth-child(1) {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+body .product-description p:nth-child(2) {
+  color: #c7c7c7;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 36px;
+}
+
+body .product-description p:nth-child(3) {
+  color: #c7c7c7;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 36px;
+}
+
+body .add-to-cart-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .primary-button {
+  background-color: #acd9b2;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  width: 300px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=product.css.map */
