@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-size: 62.5%;
+}
+
+body nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 24px;
+  height: 60px;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+body nav .menu {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  body nav .menu {
+    display: block;
+    width: 35px;
+  }
+}
+
+body nav .navbar-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body nav .navbar-left .logo {
+  width: 100px;
+}
+
+body nav .navbar-left ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  margin-left: 12px;
+}
+
+body nav .navbar-left ul li a {
+  text-decoration: none;
+  color: #c7c7c7;
+  border: 1px solid #fff;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+body nav .navbar-left ul li a:hover {
+  border: 1px solid #acd9b2;
+  color: #acd9b2;
+}
+
+@media (max-width: 640px) {
+  body nav .navbar-left ul {
+    display: none;
+  }
+}
+
+body nav .navbar-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+}
+
+body nav .navbar-right ul .navbar-email {
+  color: #c7c7c7;
+  font-size: 14px;
+  margin-right: 24px;
+}
+
+@media (max-width: 640px) {
+  body nav .navbar-right ul .navbar-email {
+    display: none;
+  }
+}
+
+body nav .navbar-right ul .navbar-shopping-cart {
+  position: relative;
+}
+
+body nav .navbar-right ul .navbar-shopping-cart div {
+  width: 16px;
+  height: 16px;
+  background-color: #acd9b2;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: -6px;
+  right: -3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=navbar.css.map */
