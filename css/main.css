@@ -7,6 +7,89 @@ body {
   font-size: 62.5%;
 }
 
+body .begin {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+body .begin input {
+  margin-top: 24px;
+  min-width: 300px;
+  max-width: 400px;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  padding: 0 24px;
+  background-color: #f7f7f7;
+}
+
+body .begin input::-webkit-input-placeholder {
+  color: #c7c7c7;
+}
+
+body .begin input:-ms-input-placeholder {
+  color: #c7c7c7;
+}
+
+body .begin input::-ms-input-placeholder {
+  color: #c7c7c7;
+}
+
+body .begin input::placeholder {
+  color: #c7c7c7;
+}
+
+body .begin input:focus {
+  outline: none;
+}
+
+body .begin ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .begin ul li {
+  color: #c7c7c7;
+  list-style: none;
+  margin: 0 12px;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+body .begin ul li:hover {
+  color: #acd9b2;
+  border: 1px solid #acd9b2;
+  cursor: pointer;
+}
+
+body .begin div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .begin div p {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+body .begin div select {
+  border: none;
+  color: #c7c7c7;
+}
+
+body .begin div select option {
+  font-size: 14px;
+  color: #c7c7c7;
+}
+
+body .begin div select:focus {
+  outline: none;
+}
+
 body .cards-container {
   display: -ms-grid;
   display: grid;
