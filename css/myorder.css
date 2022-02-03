@@ -9,22 +9,86 @@ body {
 
 body .my-order {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: -ms-grid;
   display: grid;
   place-items: center;
 }
 
-body .my-order .my-order-container .title {
-  font-size: 18px;
-  margin: 0 0 40px 0;
+body .my-order .title {
+  display: none;
 }
 
-body .my-order .my-order-container .my-order-content {
+body .my-order .my-order-content {
+  width: 300px;
+  height: 60px;
+  padding: 0 12px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: auto 1fr auto;
-      grid-template-rows: auto 1fr auto;
+  -ms-grid-columns: auto 1fr auto auto;
+      grid-template-columns: auto 1fr auto auto;
+  place-items: center;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+}
+
+body .my-order .my-order-content p:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .my-order .my-order-content p:nth-child(1) span:nth-child(1) {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+body .my-order .my-order-content p:nth-child(1) span:nth-child(2) {
+  color: #c7c7c7;
+}
+
+body .my-order .my-order-content p:nth-child(2) {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+  font-weight: bold;
+}
+
+body .my-order .shopping-cart {
   width: 300px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr auto auto;
+      grid-template-columns: auto 1fr auto auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 12px 0 12px 0;
+}
+
+body .my-order .shopping-cart figure {
+  width: 80px;
+  height: 80px;
+  margin: 0 20px 0 0;
+}
+
+body .my-order .shopping-cart figure img {
+  width: 100%;
+  height: 80px;
+  border-radius: 18px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .my-order .shopping-cart p:nth-child(2) {
+  color: #c7c7c7;
+}
+
+body .my-order .shopping-cart p:nth-child(3) {
+  font-weight: bold;
 }
 /*# sourceMappingURL=myorder.css.map */
